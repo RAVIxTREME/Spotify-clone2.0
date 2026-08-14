@@ -24,6 +24,4 @@ Spotify-Clone/
 │
 ├── index.html
 ├── style.css
-├── images/
-│   └── album-images
 └── README.md
