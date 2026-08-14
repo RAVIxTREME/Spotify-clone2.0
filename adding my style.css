@@ -1,0 +1,479 @@
+ * {
+            padding: 0px;
+            margin: 0px;
+            /* background-color: black; */
+            overflow: hidden;
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .Container {
+            display: flex;
+            height: 100vh;
+            background-color: #151313;
+            /* border-radius: 2rem; */
+            /* margin: 10px; */
+        }
+
+        .sidebar {
+            /* background-color:#0f0e0e; */
+            width: 331px;
+            border-radius: 1rem;
+            /* position:absolute; */
+        }
+
+        .section {
+            /* background-color:#1f1f1f ; */
+            height: 680px;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20p;
+            position: relative;
+            top: 30px;
+            border-radius: 1rem;
+            margin: 20px;
+        }
+
+        .main {
+            background-color: #1f1f1f;
+            flex: 1;
+            overflow: auto;
+            border-radius: 1rem;
+            /* border: 2px solid white; */
+        }
+
+        .music-player {
+            background-color: #151313;
+            border: 1px solid gray;
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            height: 66px;
+            width: 100%;
+            display: flex;
+
+        }
+
+        .album {
+            /* background-color: black; */
+            width: 25%;
+            height: 66px;
+            gap: 1.5rem;
+            cursor: pointer;
+        }
+
+        .play-bar {
+            /* background-color: orange; */
+            width: 50%;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            /* gap: 10px; */
+        }
+
+        .controls {
+            /* background-color: brown; */
+            width: 25%;
+            height: 66px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.2rem;
+            cursor: pointer;
+        }
+
+        .change-song {
+            display: flex;
+            margin: 5px;
+            gap: 1rem;
+        }
+
+        .btn1 {
+            border-radius: 50px;
+            height: 35px;
+            width: 100px;
+            background-color: transparent;
+            border: 2px solid white;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .btn1:hover {
+            opacity: 1;
+        }
+
+        .list {
+            position: relative;
+            bottom: 190px;
+            font-size: 12px;
+        }
+
+        ul {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .list ul li a {
+            color: #b3b3b3;
+            text-decoration: none;
+            margin: 17px;
+
+        }
+
+        .btn2 {
+            /* position: relative;
+            top: 20px; */
+            border-radius: 50px;
+            margin: 20px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            background-color: transparent;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        .btn2:hover {
+            transform: scale(1.05);
+        }
+
+        .section-1 {
+            position: absolute;
+            top: 120px;
+            background-color: #1f1f1f;
+            width: 298px;
+            margin: 17px;
+            height: 133px;
+            border-radius: 10px;
+        }
+
+        .btn3:hover {
+            transform: scale(1.05);
+        }
+
+        .btn4:hover {
+            transform: scale(1.05);
+        }
+
+        .p1,
+        .p3 {
+            position: relative;
+            top: 15px;
+            left: 20px;
+            font-weight: 700;
+        }
+
+        .p2,
+        .p4 {
+            position: relative;
+            top: 15px;
+            left: 20px;
+            font-weight: 500;
+        }
+
+        .btn3 {
+            position: relative;
+            top: 35px;
+            left: 20px;
+            color: black;
+            width: 125px;
+            height: 32px;
+            border-radius: 50px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+        }
+
+        .section-2 {
+            position: absolute;
+            top: 280px;
+            background-color: #1f1f1f;
+            width: 298px;
+            height: 150px;
+            margin: 17px;
+            border-radius: 10px;
+        }
+
+        .btn4 {
+            position: relative;
+            top: 30px;
+            left: 20px;
+            color: black;
+            width: 135px;
+            height: 38px;
+            border-radius: 50px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+        }
+
+        #less {
+            background-color: rgb(59, 55, 55);
+            /* height: 40px;
+            width: 40px; */
+            border-radius: 50%;
+            text-align: center;
+            padding: 12px;
+            margin-left: 1rem;
+        }
+
+        #logo {
+            font-size: 35px;
+        }
+
+        #greater {
+            background-color: rgb(59, 55, 55);
+            /* height: 40px;
+            width: 40px; */
+            border-radius: 50%;
+            text-align: center;
+            padding: 12px;
+        }
+
+        .btn5 {
+            color: black;
+            width: 145px;
+            height: 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .btn6 {
+            padding: 7px;
+            border-radius: 50px;
+            background-color: rgb(59, 55, 55);
+            border: none;
+            margin-right: 10px;
+        }
+
+        #user {
+            position: relative;
+            top: 11px;
+            padding: 10px;
+            background: rgb(59, 55, 55);
+            border-radius: 50%;
+        }
+
+        .nav1 {
+            margin: 1rem;
+            margin-left: 30px;
+            cursor: pointer;
+        }
+
+        #less,
+        #greater {
+            opacity: 0.5;
+        }
+
+        #less:hover {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        #greater:hover {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        .nav2 {
+            margin: 0.5rem;
+            margin-right: 30px;
+            cursor: pointer;
+        }
+
+        .btn5,
+        .btn6,
+        #user {
+            opacity: 0.75;
+        }
+
+        #user:hover {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        .btn5:hover {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        .btn6:hover {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+            background-color: #1f1f1f;
+        }
+
+        .main-section-1 {
+            display: flex;
+        }
+
+        .card {
+            height: 370px;
+            width: 230px;
+            background-color: rgb(59, 55, 55);
+            border-radius: 1rem;
+            margin: 2.5rem;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: scale(1.01);
+            box-shadow: 2px 2px 10px gray;
+        }
+
+        .img-1 {
+            width: 190px;
+            height: 190px;
+            margin: 10px;
+            border-radius: 1rem;
+        }
+
+        .cr-1 {
+            text-align: center;
+        }
+
+        .head2,
+        .head3 {
+            margin: 1.5rem;
+        }
+
+        .song1 {
+            height: 180px;
+            width: 200px;
+            background-color: rgb(59, 55, 55);
+            border-radius: 1rem;
+            margin: 2.5rem;
+            transition: 0.25s linear;
+            cursor: pointer;
+        }
+
+        .song1:hover {
+            transform: scale(1.05);
+            box-shadow: 2px 2px 10px gold;
+        }
+
+        .img-2 {
+            width: 180px;
+            height: auto;
+            margin: 10px;
+            border-radius: 1rem;
+        }
+
+        .img-3 {
+            width: 190px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 1rem;
+        }
+
+        .song-name {
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .main-section-2 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 5px;
+            /* display: flex; */
+            /* justify-content: space-evenly; */
+        }
+
+        .li-1 ul {
+            display: flex;
+            flex-direction: column;
+            color: lightgray;
+        }
+
+
+        .li-1 ul li a {
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .li-1 ul li h3 {
+            color: white;
+        }
+
+        .lists {
+            height: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            position: relative;
+            top: 110px;
+        }
+
+        .icons {
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        #facebook:hover {
+            color: white;
+        }
+
+        #p1 {
+            position: relative;
+            bottom: 70px;
+            color: lightgray;
+            text-align: center;
+        }
+
+        /* @media(max-width:900px){
+            #user{
+                display: none;
+            }
+        } */
+
+        .line {
+            /* height: 10%; */
+            width: 90%;
+            border-top: 1px solid gray;
+            margin-left: 60px;
+            margin-top: 50px;
+        }
+
+        #play {
+            font-size: 25px;
+        }
+
+        #back,
+        #next {
+            font-size: 18px;
+        }
+
+        #repeat,
+        #shuffle {
+            font-size: 15px;
+        }
+
+        #album-left {
+            height: 50px;
+            width: 50px;
+        }
+
+        .album {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+        }
+
+        /* .play-line{
+            width: 60%;
+        } */
