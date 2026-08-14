@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <main class="Container">
+        <div class="sidebar">
+            <div class="section">
+                <div>
+                    <h4>Your Library</h4>
+                </div>
+                <div><button class="btn1"><i class="fa-solid fa-plus"></i><span>Create</span></button></div>
+            </div>
+
+            <div class="section-1">
+                <span class="p1">Create your first playlist</span><br>
+                <span class="p2">it's easy, we'll help you</span><br>
+                <span><button class="btn3">Create playlist</button></span>
+            </div>
+
+            <div class="section-2">
+                <span class="p3">Let's find some podcasts to follow</span><br>
+                <span class="p4">We'll keep you updated on new episodes</span><br>
+                <span><button class="btn4">Browse podcasts</button></span>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Safety&Privacy Center</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">About Ads</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+                <button class="btn2"><i class="fa-solid fa-globe"></i>English</button>
+            </div>
+
+        </div>
+
+
+        <div class="main">
+            <div class="navbar">
+                <div class="nav1">
+                    <i id="logo" class="fa-brands fa-spotify"></i>
+                    <i id="less" class="fa-solid fa-less-than"></i>
+                    <i id="greater" class="fa-solid fa-greater-than"></i>
+                </div>
+
+                <div class="nav2">
+                    <button class="btn5">Explore Premium</button>
+                    <button class="btn6"><i id="i" class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i id="user" class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+            <h2 class="head2">Featured Chart</h2>
+            <div class="main-section-1">
+                <div class="card">
+                    <img class="img-1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpIunsNtl5yh57dLj-wirZTP58NbfpV2m8ZM8yk53zWA&s=10"
+                        alt="spotify-images">
+                    <h3 class="cr-1">Top 50 - Global</h3>
+                    <p class="cr-1">Your daily updated of <br>the most played trac...</p>
+                </div>
+
+                <div class="card">
+                    <img class="img-1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRArQyuBqy-M6aeNmCr0G81x1-gZpZc_hOYJG-W44wuVw&s=10"
+                        alt="spotify-images">
+                    <h3 class="cr-1">Top 50 - Global</h3>
+                    <p class="cr-1">Your daily updated of <br>the most played trac...</p>
+                </div>
+
+                <div class="card">
+                    <img class="img-1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Uo3PIstO9ljVYTTgVcVJUNp4KPfpfblPEwk8vGH4Dg&s=10"
+                        alt="spotify-images">
+                    <h3 class="cr-1">Top Songs Global</h3>
+                    <p class="cr-1">Your weekly update of the most played tracks right now - Global.</p>
+                </div>
+
+                <div class="card">
+                    <img class="img-1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ZF4mg7RcPh0iyrl7dGBHHPGnvuGJCXVnETxRTdNvHw&s=10"
+                        alt="spotify-images">
+                    <h3 class="cr-1">Top Songs India</h3>
+                    <p class="cr-1">Your weekly update of the most played tracks right now - India.</p>
+                </div>
+
+
+            </div>
+
+            <h2 class="head3">Trending songs</h2>
+            <div class="main-section-2">
+                <div class="song1">
+                    <img class="img-2" src="https://www.nakulanand.in/wp-content/uploads/2022/07/agartumsathho.jpg"
+                        alt="song-img">
+                    <p class="song-name">Agar Tum Saath Ho...</p>
+                </div>
+
+                <div class="song1">
+                    <img class="img-2"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLgZ_xkKdy9hozChgvxvqq1CAH9Z7Xy_cq-i7wRcOxSg&s=10"
+                        alt="song-img">
+                    <p class="song-name">Jogi..</p>
+                </div>
+
+                <div class="song1">
+                    <img class="img-2"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDPoHldb4CH3nRftOxPIHVOmZcPndegFHrjlKJ1M-wGw&s=10"
+                        alt="song-img">
+                    <p class="song-name">Tum Se(Songs)</p>
+                </div>
+
+                <div class="song1">
+                    <img class="img-2"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXmATdM155a8U2XZ83i7ik3Mda3YTQYoBwI1RjavOqCQ&s=10"
+                        alt="song-img">
+                    <p class="song-name">Koi Itna Khubsurat Kaise Ho Sakhta hai...</p>
+                </div>
+
+                <div class="song1">
+                    <img class="img-2"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz8pBnkOm0WM814HziMd9UM7wqghmbFFJB4CcvCSeNw&s=10"
+                        alt="song-img">
+                    <p class="song-name">Dil Jhoom Jhoom...</p>
+                </div>
+
+                <div class="song1">
+                    <img class="img-2"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNK1aHs-yy0i2HMR79jyV-4418Mw2tcEn13K2VMy__ww&s=10"
+                        alt="song-img">
+                    <p class="song-name">Tere Bina...</p>
+                </div>
+
+                <div class="song1">
+                    <img class="img-2"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMECun-G4dQBHQqd4zB4_J6p_GjXZXj4HX0a2YA_yog&s=10"
+                        alt="song-img">
+                    <p class="song-name">Tum Ho Toh...</p>
+                </div>
+
+                <div class="song1">
+                    <img class="img-2"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzPuhKIMlbNTpoLDWd0DbK4hYE42IabwOhy0dmYkI9PA&s=10"
+                        alt="song-img">
+                    <p class="song-name">O Maahi...</p>
+                </div>
+
+            </div>
+
+            <h2 class="head2">Popular Artists</h2>
+            <div class="main-section-1">
+                <div class="card">
+                    <img class="img-1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuaK3qqD4sW4nlSG9Xq5z5kgcZECr2wFMyPLhHHmI6jQ&s"
+                        alt="spotify-images">
+                    <h3 class="cr-1">Pritam</h3>
+                    <p class="cr-1">Artists</p>
+                </div>
+
+                <div class="card">
+                    <img class="img-1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwoKGLall3QkLVvyKYae_Gy903JC0tNen1JYUCFHLIsg&s=10"
+                        alt="spotify-images">
+                    <h3 class="cr-1">Arijit Singh</h3>
+                    <p class="cr-1">Artists</p>
+                </div>
+
+                <div class="card">
+                    <img class="img-1" src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c"
+                        alt="spotify-images">
+                    <h3 class="cr-1">A.R Rahman</h3>
+                    <p class="cr-1">Artists</p>
+                </div>
+
+                <div class="card">
+                    <img class="img-1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJiiFd9G77rXGpoAT3MngLe_zHW6f7Syg9DPjZTH4_w&s=10"
+                        alt="spotify-images">
+                    <h3 class="cr-1">Vishal-Shekhar</h3>
+                    <p class="cr-1">Artists</p>
+                </div>
+            </div>
+
+            <footer>
+                <div class="line"></div>
+                <div class="lists">
+                    <div class="li-1">
+                        <ul>
+                            <li>
+                                <h3>Company</h3>
+                            </li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">For thr Records</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="li-1">
+                        <ul>
+                            <li>
+                                <h3>Communities</h3>
+                            </li>
+                            <li><a href="#">For Artists</a></li>
+                            <li><a href="#">Developer</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Vendors</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="li-1">
+                        <ul>
+                            <li>
+                                <h3>Useful links</h3>
+                            </li>
+                            <li><a href="#">Supports</a></li>
+                            <li><a href="#">Free Mobile App</a></li>
+                            <li><a href="#">Popular by Country</a></li>
+                            <li><a href="#">Import your music</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="li-1">
+                        <ul>
+                            <li>
+                                <h3>Spotify Plans</h3>
+                            </li>
+                            <li><a href="#">Premium Standard</a></li>
+                            <li><a href="#">Premium Platinum</a></li>
+                            <li><a href="#">Premium Students</a></li>
+                            <li><a href="#">Spotify Free</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="icons">
+                        <i id="intsa" class="fa-brands fa-square-instagram"></i>
+                        <i id="twitter" class="fa-brands fa-x-twitter"></i>
+                        <i id="facebook" class="fa-brands fa-square-facebook"></i>
+                    </div>
+                </div>
+                <p id="p1">&copy;2026 Spotify AB</p>
+
+            </footer>
+
+            <div class="music-player">
+                <div class="album">
+                    <div>
+                        <img id="album-left"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXmATdM155a8U2XZ83i7ik3Mda3YTQYoBwI1RjavOqCQ&s=10"
+                            alt="">
+                    </div>
+                    <div>
+                        <p>
+                        <h4>Khoobsurat</h4>
+                        </p>
+                        <p>Arijit Singh</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-folder-plus"></i>
+                    </div>
+                </div>
+                <div class="play-bar">
+                    <div class="change-song">
+                        <i id="shuffle" class="fa-solid fa-shuffle"></i>
+                        <i id="back" class="fa-solid fa-backward-step"></i>
+                        <i id="play" class="fa-solid fa-circle-play"></i>
+                        <i id="next" class="fa-solid fa-forward-step"></i>
+                        <i id="repeat" class="fa-solid fa-rotate-right"></i>
+                    </div>
+                    <div>
+                        <div>00:00<input type="range" class="play-line">4.45</div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div>
+                        <i class="fa-regular fa-square-caret-right"></i>
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-computer"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-volume"></i>
+                        <input type="range">
+                    </div>
+
+                </div>
+
+            </div>
+    </main>
+</body>
+
+</html>
